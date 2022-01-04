@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link{
+    margin-left:0.8rem;
+    color:#919191;
+    font-family: 'Merriweather', serif;
+    font-weight:500;
+    font-size:16px;
+}
+.navbar-nav .nav-link:hover{
+  background-color:#90EE90;
+  border-radius:50px;
+  color:#fff;
+}
+.navbar-brand{
+  color:#000000;
+  font-size:28px;
+  font-family: 'Merriweather', serif;
+  font-weight:900;
+  
+}
+
+.navbar-toggler-icon{
+  padding:4px;
+  border-color:#ffffff !important;
+}
+.hdg{
+    padding:100px;
+    line-height:2rem;
+    font-family: 'Merriweather', serif;
+    font-weight:900;
+}
+h5{
+  font-family: 'Merriweather', serif;
+  color:#FF5733;
+  font-weight: 600;
+}
+.hdg h1{
+    font-weight:900;
+    font-family: 'Merriweather', serif;
+}
+.hdg img{
+  margin-top: 0px;
+}
+svg{
+  margin-top: 0px;
+  color: #90EE90;
+}
+span{
+  color:#FF5733 ;
+}
+.btn-primary{
+  background-color:#FF5733;
+  color:white;
+  border-color:#fff;
+}
+.backtotop{
+  bottom:60px;
+  right:20px;
+  position:fixed;
+  color: #FF5733;
+}
+i{
+  color: #90EE90;
+}
+#new{
+  padding:80px;
+}
+
+body h1,h4,p{ 
+  font-family: 'Merriweather', serif;
+
+}
+/* #trending{
+  background-color: #eaeaee;
+} */
+#abt{
+  background-color: #eaeaee;
+  padding:50px;
+}
+.easy{
+  background-color: #eaeaee;
+  padding:50px;
+}
+.contact{
+ 
+  padding:50px;
+}
+#trending1{
+  background-color: #90EE90;
+}
+.card{
+  background-color: none;
+}
+#trending p{
+  color:red;
+  font-weight: 500;
+}
+#trending img:hover{
+  transform: scale(1.2);
+}
+#new img:hover{
+  transform: scale(1.2);
+}
+.ht img:hover{
+  transform: scale(1.2);
+}
+
+.easy i:hover{
+  transform: scale(1.2);
+}
+#campanies{
+  background-color: #90EE90;
+  padding:50px;
+}
+#trending1 .btn-primary{
+  background-color: #FF5733;
+  color:#fff;
+
+  }
+    .product-new-label{
+      background-color: #FF5733;
+      height:45px;
+      width:45px;
+      border-radius:50%;
+      position:absolute;
+      left:10px;top:15px;
+      transition:all .3s
+    }
